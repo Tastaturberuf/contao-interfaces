@@ -1,0 +1,21 @@
+{
+    "name": "tastaturberuf/contao-interfaces",
+    "description": "Interfaces for Contao Open Source CMS",
+    "keywords": ["interface", "hook", "callback"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Jahnsmüller",
+            "homepage": "tastaturberuf.de",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tastaturberuf\\ContaoInterfaces\\": [""]
+        }
+    }
+}
